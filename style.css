@@ -1,5 +1,4 @@
-
-    body{
+body{
       background-color:black;
       padding: 0;
       margin: 0;
@@ -70,10 +69,23 @@
      font-family:pacifico;
      padding: 20px;
     }
-    ul{
-    margin: 20px;
-    list-style-type: none; 
-    }
+   
+   
+   li{
+   list-style: none;
+   
+   margin-bottom: 10px;
+}
+li:before{
+   content: '';
+   display: inline-block;
+   height: 10px;
+   width: 10px;
+   background-image: url("https://1.bp.blogspot.com/-o_b4aR_NhL4/XVrhOLdy7lI/AAAAAAAACP8/Oy1tWYxH3uIwG_gf0BP2xtL5cNq94HAxACLcBGAs/s1600/Rob-Logo.png");
+   background-size:cover;
+   list-style-position: outside;
+   margin-right: 10px;  
+}
     h3{
     margin: 20px;
     }
@@ -87,11 +99,11 @@
       }
     
       .left-logo{
-      margin:10px 0px 0px 0px;
+      margin:10px 0px 35px 0px;
       width:20%;
       }
       .right-logo{
-      margin:10px 0px 0px 0px ;
+      margin:10px 0px 35px 0px ;
       width:20%;
       }
       main{
@@ -109,3 +121,4 @@
       margin: 0;
         
       }
+    
