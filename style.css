@@ -15,14 +15,14 @@ body{
     }
     main section:first-child{
      width:40%;
-     background-color:red;
+     background-color:rgb(202, 7, 7);
      margin-right: 10px;
     
      
     }
     main section:last-child{
      width:60%;
-     background-color:red;
+     background-color:rgb(202, 7, 7);
      margin-left: 10px
     }
     
@@ -60,6 +60,9 @@ body{
      display:block;
       margin:auto;
       width:200px
+    }
+    .formal-photo{
+    margin-bottom: -5px;
     }
     h2{
      font-family:pacifico;
@@ -121,4 +124,4 @@ li:before{
       margin: 0;
         
       }
-    
+  
